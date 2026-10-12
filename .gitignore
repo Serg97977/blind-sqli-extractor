@@ -1,0 +1,19 @@
+# Secrets / local config — never commit cookies, tokens or targets
+.env
+*.env
+secrets*
+targets.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
